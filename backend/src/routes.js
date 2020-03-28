@@ -43,13 +43,4 @@ routes.get('/profile', celebrate({
 }),ProfileController.index);
 
 
-// routes.get('/ongs/:id', (request, response) => {
-//   const params = request.query;
-//   console.log(params);
-//   return response.json({
-//     evento: 'Semana OmniStack 11.0',
-//     aluno: 'Lenio Ferretto'
-//   });
-// });
-
 module.exports = routes;
