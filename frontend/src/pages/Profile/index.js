@@ -34,7 +34,7 @@ export default function Profile() {
           Authorization: ongId,
         }
       });
-      setIncidents(incidents.filter(incident => incident.id != id));
+      setIncidents(incidents.filter(incident => incident.id !== id));
     } catch (err) {
       alert('Erro ao apagar caso. Tente novamente.')
     }
